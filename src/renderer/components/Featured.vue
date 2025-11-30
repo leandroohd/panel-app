@@ -9,6 +9,9 @@
     <h2 class="subtitle" :style="{ 'color': fontColor }">
       {{ message.subtitle || '---' }}
     </h2>
+    <p class="description" :style="{ 'color': fontColor }">
+{{ message.nomeCliente || '---' }}
+</p>
   </div>
 </template>
 
